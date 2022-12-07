@@ -1,0 +1,101 @@
+::-webkit-scrollbar {
+width: 0;
+}
+* {
+margin: 0px;
+padding: 0px;
+}
+
+body , html {
+width: 100%;
+height: 100%;
+overflow: auto;
+}
+.container {
+width: 90%;
+max-width: 1280px;
+margin: 0 auto;
+}
+/*header*/
+
+
+
+.header {  
+position: relative;
+min-height: 710px;
+background: #F9D9EB;
+}
+.nav_list a {
+text-decoration: none; 
+color:#2B292D;
+}
+.header li{
+list-style-type: none;  
+}
+.nav {
+display: flex;
+justify-content: space-between;
+padding-top: 39px;
+max-width: 1140;
+}
+.nav_logo{
+display: flex;
+}
+.nav_logo_text {
+margin-left: 15px;
+}
+.nav_list li{
+padding:0 20px;
+}
+.nav_logo_text h2 {
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 25px;
+color: #2B292D;   
+}
+.nav_logo_text h3 {
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+color: rgba(43, 41, 45, 0.6);
+}
+#menu {
+display: flex;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+}
+#menu a:hover {
+font-weight: 700;
+color: #2B292D;
+}
+.nav_button {
+display: flex;
+align-items: center;
+}
+.button {
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 13px;
+padding: 17px 28px 18px 28px;
+border: none;
+border-radius: 2px;
+
+
+}
+.button a {
+color: #fff;
+text-decoration: none; 
+}
+.button_color_blue {
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-05) 100%), #3040C4;
+
+}
